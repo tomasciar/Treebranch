@@ -16,7 +16,7 @@ export default Nav;
 
 const navStyle = {
   display: "flex",
-  justifyContent: "space-between",
+  justifyContent: "flex-end",
   alignItems: "center",
   backgroundColor: "rgb(90, 189, 99)",
   color: "white"
