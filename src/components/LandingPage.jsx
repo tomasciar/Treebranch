@@ -1,4 +1,6 @@
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 
 const LandingPage = () => {
   return (
@@ -8,8 +10,8 @@ const LandingPage = () => {
 
         <break></break>
 
-        <Button style={buttonStyle}>Login</Button>
-        <Button style={buttonStyle}>Sign Up</Button>
+        <Link to="/login"><Button style={buttonStyle}>Login</Button></Link>
+        <Link to="/signup"><Button style={buttonStyle}>Sign Up</Button></Link>
       </section>
     </div>
   );
