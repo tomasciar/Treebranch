@@ -8,7 +8,7 @@ import Sidebar from "./components/Sidebar";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import LandingPage from "./components/LandingPage";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/Homepage";
 
 ReactDOM.render(
   <React.StrictMode>
